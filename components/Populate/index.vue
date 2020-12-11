@@ -32,10 +32,11 @@ export default {
 }
 img {
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 5px;
   transition: 0.3s ease-in-out;
-  max-width: 50%;
-  object-fit: contain;
+  width: 50%;
+  max-height: auto;
+  object-fit: cover;
 }
 .panorama {
   max-width: 100%;
