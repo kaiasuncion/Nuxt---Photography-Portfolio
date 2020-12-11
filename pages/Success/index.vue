@@ -12,7 +12,7 @@
 }
 .success-message-large {
   padding: 5px 70px;
-  font-size: 12em;
+  font-size: 3em;
   background-color: #000;
   color: #fff;
   margin-bottom: 20px;
@@ -20,7 +20,7 @@
 }
 .success-message-large:hover {
   background-color: orange;
-  font-size: 15em;
+  font-size: 5em;
   cursor: crosshair;
 }
 </style>
