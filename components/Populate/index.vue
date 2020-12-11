@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import photoData from '~/components/populate/photoData.json'
+import photoData from './photoData.json'
 
 export default {
   data() {
