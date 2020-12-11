@@ -34,12 +34,20 @@ img {
   margin: 0 auto;
   padding: 5px;
   transition: 0.3s ease-in-out;
-  width: 50%;
-  max-height: auto;
-  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
 }
 .panorama {
   max-width: 100%;
   width: 100%;
+}
+@media only screen and (min-width: 750px) {
+  img {
+    width: 50%;
+  }
+  .panorama {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 </style>

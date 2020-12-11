@@ -330,6 +330,16 @@
     "categories": ["night"]
   },
   {
+    "id": "b05",
+    "title": null,
+    "alt_description": "Reflection of lights on moving water.",
+    "path": {
+      "small": "",
+      "regular": "reflections03.jpg"
+    },
+    "categories": ["reflections"]
+  },
+  {
     "id": "a21",
     "title": "Mirage",
     "alt_description": "Long exposure of computer lights streaking across frame.",
@@ -348,16 +358,6 @@
       "regular": "computer01.jpg"
     },
     "categories": ["branding","computer","long exposure"]
-  },
-  {
-    "id": "b05",
-    "title": null,
-    "alt_description": "Reflection of lights on moving water.",
-    "path": {
-      "small": "",
-      "regular": "reflections03.jpg"
-    },
-    "categories": ["reflections"]
   },
   {
     "id": "a61",
