@@ -1,5 +1,6 @@
 <template>
-  <form name="contact" action="/success" method="POST" data-netlify="true">
+  <form name="contact" method="POST" data-netlify="true">
+    <!-- <form name="contact" action="/success" method="POST" data-netlify="true"> -->
     <label for="name">Name</label><br />
     <input id="name-field" type="text" name="name" required /><br />
     <label for="email">Email</label><br />
