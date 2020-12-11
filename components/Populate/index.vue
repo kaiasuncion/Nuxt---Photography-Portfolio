@@ -35,7 +35,7 @@ img {
   padding: 20px 20px;
   transition: 0.3s ease-in-out;
   max-width: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .panorama {
   max-width: 100%;
