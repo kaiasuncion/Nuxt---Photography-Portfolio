@@ -12,7 +12,7 @@
         <input name="bot-field" />
       </label>
     </p>
-    <button type="submit" id="send-it">Send it!</button>
+    <button id="send-it" type="submit">Send it!</button>
   </form>
 </template>
 
