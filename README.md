@@ -1,20 +1,3 @@
-# kai-asuncion-photos
-
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# Personal Photography Portfolio
+## (photos.kaiasuncion.com)[https://photos.kaiasuncion.com/]
+Still working out some kinks with Netlify forms and mobile layout
