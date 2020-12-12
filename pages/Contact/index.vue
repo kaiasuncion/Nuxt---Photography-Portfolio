@@ -4,13 +4,10 @@
       <img class="me p-4" src="~/assets/photos/self_port.jpg" alt="Me!" />
       <p>
         <span class="font-bold">Hi</span>, I'm Kai. I’m a
-        <span class="accentuate">Kansas City</span> based photographer. I like
-        to take portrait and product photos. I love experimenting with long
-        exposures and landscapes too. I’ve been shooting for a few years now and
-        try to learn something new each day. I love to capture moments and
-        freezing them in time forever. I like to challenge and give myself
-        different assignments in my free time. If I’m not doing something
-        photography related, I’m doing something code or design related.
+        <span class="accentuate">Kansas City</span> based photographer.
+        Capturing moments and freezing them in time forever so you can experience
+        it again is my passion. If I’m not doing something photography related,
+        I’m doing something with code or design.
       </p>
     </div>
     <ContactForm />
