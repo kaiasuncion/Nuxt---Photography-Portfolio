@@ -16,7 +16,7 @@ body {
 }
 .layout-class {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 800px;
 }
 .container {
   min-height: 80vh;
@@ -31,7 +31,7 @@ h1 {
 }
 @media only screen and (min-width: 700px) {
   .layout-class {
-    max-width: 800px;
+    max-width: 1200px;
   }
 }
 </style>

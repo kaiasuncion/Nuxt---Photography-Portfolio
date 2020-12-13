@@ -1,10 +1,16 @@
 <template>
-  <form name="contact" action="/success" method="POST" data-netlify="true">
-    <label for="name">Name</label>
-    <input id="name-field" type="text" name="name" required />
+  <form
+    name="contact"
+    action="/success"
+    method="POST"
+    enctype="Content-Type of application/x-www-form-urlencoded"
+    data-netlify="true"
+  >
+    <label for="person-name">Name</label>
+    <input id="name-field" type="text" name="person-name" required />
     <label for="email">Email</label>
     <input id="email-field" type="email" name="email" required />
-    <label for="">Message</label>
+    <label for="message">Message</label>
     <textarea id="message-field" name="message" cols="30" rows="10" required />
     <p class="hidden">
       <label>
