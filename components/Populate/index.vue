@@ -37,6 +37,9 @@ img {
   width: 100%;
   object-fit: cover;
 }
+img:hover {
+  cursor: pointer;
+}
 .panorama {
   max-width: 100%;
   width: 100%;
