@@ -11,7 +11,8 @@
     <label for="email">Email</label>
     <input id="email-field" type="email" name="email" required />
     <label for="message">Message</label>
-    <textarea id="message-field" name="message" cols="30" rows="10" required />
+    <textarea id="message-field" name="message" cols="30" rows="10" required>
+    </textarea>
     <p class="hidden">
       <label>
         Don’t fill this out if you’re human:
