@@ -36,7 +36,7 @@ img {
   transition: 0.3s ease-in-out;
   width: 50%;
   object-fit: cover;
-  height: 200px;
+  height: auto;
 
   /* width: 100%;
   object-fit: contain; */
