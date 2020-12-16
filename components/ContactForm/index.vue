@@ -4,6 +4,7 @@
     action="/success"
     method="POST"
     enctype="Content-Type of application/x-www-form-urlencoded"
+    netlify-honeypot="bot-field"
     data-netlify="true"
   >
     <label for="person-name">Name</label>
@@ -19,6 +20,7 @@
         <input name="bot-field" />
       </label>
     </p>
+    <div data-netlify-recaptcha="true"></div>
     <button id="send-it" type="submit">Send it!</button>
   </form>
 </template>
