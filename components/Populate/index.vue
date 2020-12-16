@@ -36,7 +36,7 @@ img {
   transition: 0.3s ease-in-out;
   width: 50%;
   object-fit: cover;
-  height: auto;
+  height: 300px;
 
   /* width: 100%;
   object-fit: contain; */
@@ -47,6 +47,7 @@ img:hover {
 .panorama {
   max-width: 100%;
   width: 100%;
+  object-fit: contain;
 }
 @media only screen and (min-width: 750px) {
   img {
