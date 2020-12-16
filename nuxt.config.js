@@ -18,7 +18,6 @@ export default {
           'https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Raleway&display=swap',
       },
     ],
-    
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
