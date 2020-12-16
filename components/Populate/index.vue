@@ -35,7 +35,7 @@ img {
   padding: 5px;
   transition: 0.3s ease-in-out;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 img:hover {
   cursor: pointer;
@@ -47,6 +47,7 @@ img:hover {
 @media only screen and (min-width: 750px) {
   img {
     width: 50%;
+    object-fit: cover;
   }
   .panorama {
     max-width: 100%;
