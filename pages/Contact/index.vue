@@ -16,6 +16,7 @@
       method="POST"
       enctype="Content-Type of application/x-www-form-urlencoded"
       netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
       data-netlify="true"
     >
       <input type="hidden" name="contact-form" value="contact" />
