@@ -34,8 +34,11 @@ img {
   margin: 0 auto;
   padding: 5px;
   transition: 0.3s ease-in-out;
-  width: 100%;
-  object-fit: contain;
+  width: 50%;
+  object-fit: cover;
+
+  /* width: 100%;
+  object-fit: contain; */
 }
 img:hover {
   cursor: pointer;
