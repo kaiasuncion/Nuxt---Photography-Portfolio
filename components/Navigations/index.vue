@@ -2,7 +2,7 @@
   <nav>
     <NuxtLink to="/"><h1 id="title">KAI ASUNCION</h1></NuxtLink>
     <ul class="navigation-holder">
-      <NuxtLink to="/contact">
+      <NuxtLink to="/contact/">
         <li class="navigation-item">Contact</li>
       </NuxtLink>
     </ul>

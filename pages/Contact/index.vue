@@ -12,7 +12,7 @@
     </div>
     <form
       name="contact"
-      action="/success"
+      action="/success/"
       method="POST"
       enctype="Content-Type of application/x-www-form-urlencoded"
       netlify-honeypot="bot-field"
@@ -39,7 +39,7 @@
         </label>
       </p>
       <div data-netlify-recaptcha="true"></div>
-      <button id="send-it" type="submit">Send it!</button>
+      <button id="send-it" type="submit">Send</button>
     </form>
   </div>
 </template>
