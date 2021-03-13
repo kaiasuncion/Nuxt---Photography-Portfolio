@@ -44,8 +44,17 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
-
+  modules: ['@nuxtjs/recaptcha'],
+  recaptcha: {
+    hideBadge: false,
+    siteKey: process.env.SITE_RECAPTCHA_KEY,
+    version: 2,
+    size: 'normal',
+  },
+  privateRuntimeConfig: {
+    SITE_RECAPTCHA_KEY: process.env.SITE_RECAPTCHA_KEY,
+    SITE_RECAPTCHA_SECRET: process.env.SITE_RECAPTCHA_SECRET,
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }

@@ -3,7 +3,6 @@
     name="contact"
     action="/success/"
     method="POST"
-    enctype="Content-Type of application/x-www-form-urlencoded"
     netlify-honeypot="bot-field"
     data-netlify-recaptcha="true"
     data-netlify="true"
@@ -27,7 +26,7 @@
         <input name="bot-field" />
       </label>
     </p>
-    <div data-netlify-recaptcha="true"></div>
+    <recaptcha class="mb-6" />
     <button id="send-it" type="submit">Send</button>
   </form>
 </template>
