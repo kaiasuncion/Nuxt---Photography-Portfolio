@@ -26,6 +26,7 @@
         <input name="bot-field" />
       </label>
     </p>
+    <div data-netlify-recaptcha="true" class="mb-6" />
     <button id="send-it" type="submit">Send</button>
   </form>
 </template>
