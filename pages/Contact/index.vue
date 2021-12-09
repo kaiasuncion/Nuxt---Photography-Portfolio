@@ -1,16 +1,7 @@
 <template>
   <div class="container">
     <div class="py-8">
-      <img class="me p-4" src="~/assets/photos/self_port.jpg" alt="Me!" />
-      <p>
-        <span class="font-bold">Hi</span>, I'm Kai. I’m a
-        <span class="accentuate">Kansas City</span> based photographer.
-        Capturing moments and freezing them in time forever so you can
-        experience it again is my passion. If I’m not doing something
-        photography related, I’m doing something with code or design.
-      </p>
-    </div>
-    <ContactForm />
+      <h1>Under Construction</h1>
   </div>
 </template>
 
